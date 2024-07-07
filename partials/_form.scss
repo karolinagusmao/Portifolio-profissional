@@ -1,0 +1,141 @@
+.body-form{
+    background: url(/assets/fundo-form.jpg) no-repeat center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Bitter', serif;
+
+    padding: 0 1rem 0 1rem;
+}
+
+.h-form{
+    font-size: 1.8rem;
+    color: $white-normal;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    max-width: 700px;
+    font-weight: 500;
+}
+
+.form{
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.25rem;
+    border: 4px solid $other-blue;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: $white-normal;
+    margin-bottom: 40px;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form {
+    display: block;
+    width: 100%;
+}
+
+.form label{
+    color: #7FADB4;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #BBE0E5;
+    transition: border-color, box-shadow 0.2s;
+    font-size: 1.1rem;
+}
+
+.form textarea {
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus{
+    outline: none;
+    border-color: $other-blue;
+    box-shadow: 0 0 0 3px $other-blue;
+}
+
+.form button {
+    display: block;
+    padding: 1rem;
+    background: #56B8C6;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100%;
+    border-radius: 12px;
+    color: $white-normal;
+    font-weight: bold;
+}
+
+.form button:hover,
+.form button:focus {
+    outline: none;
+    background: $other-blue-dark
+}
+
+.p-form{
+    color: $white-normal;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px 20px 4px 20px;
+}
+
+.form-button{
+    position: relative;
+    display:flex;
+    padding: 10px;
+    color: $other-blue-light;
+    margin: 0 auto;
+}
+
+.home-button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+    padding: 3rem 0 3rem 0;
+
+    a{
+        font-size: 1.4rem;
+    }
+
+    i{
+        color: $white-normal;
+        font-size: 1.4rem;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.ty-home{
+    text-align: center;
+    align-items: center;
+
+    a, i{
+        color: $other-blue-light;
+    }
+}
+
+.h-ty{
+    font-size: 2.6rem;
+}
