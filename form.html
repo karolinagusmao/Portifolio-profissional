@@ -19,15 +19,13 @@
     <h1 class="h-form">Envie-me um e-mail com o máximo de informações!</h1>
     <form action="https://formsubmit.co/karolinab2gusmao@gmail.com" class="form" method="POST">
         <label for="name">Nome</label>
-        <input type="text" name="name" id="name">
-
+        <input type="text" name="name" id="name" required minlength="3" autocomplete="name">
         <label for="email">Email</label> 
-        <input type="email" name="email" id="email" required>
-
+        <input type="email" name="email" id="email" required autocomplete="email">
         <label for="message">Mensagem</label>
-        <textarea name="message" id="message" required></textarea>
+        <textarea name="message" id="message" required autocomplete="off"></textarea>
         <input type="hidden" name="_next" value="https://portifolio-profissional-ten.vercel.app/">
-        <div class="form-button"><button type="submit">Enviar</button></div>
+        <div class="form-button"><button type="submit" aria-label="Enviar formulário">Enviar</button></div>
    </form>
 </body>
 </html>
