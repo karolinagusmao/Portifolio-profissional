@@ -25,7 +25,7 @@ body {
 
 .container {
   max-width: 1400px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .hero {
@@ -40,7 +40,7 @@ body {
 }
 .hero h3 {
   font-size: 26px;
-  color: #895ace;
+  color: #52838A;
 }
 .hero h1 {
   font-size: 42px;
@@ -85,7 +85,7 @@ body {
 }
 
 .social-icons a:hover {
-  color: #895ace;
+  color: #829499;
 }
 
 .hero-button {
@@ -98,8 +98,8 @@ body {
 }
 
 .hero-button:hover {
-  background-color: #895ace;
-  border: #895ace;
+  background-color: #52838A;
+  border: #52838A;
   opacity: 1;
 }
 
@@ -112,7 +112,7 @@ body {
 
 .tools-title {
   padding: 40px 0 70px 0;
-  color: #a66dfb;
+  color: #4C6066;
   font-size: 16px;
 }
 
@@ -135,7 +135,7 @@ body {
   max-width: 100px;
   font-size: 18px;
   font-weight: 500;
-  color: #895ace;
+  color: #4C6066;
 }
 
 .tool-box {
@@ -144,7 +144,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 8px 20px 8px 20px;
-  background-color: #a575ee;
+  background-color: #52838A;
   font-size: 15px;
   color: #fff;
   border-radius: 6px;
@@ -157,7 +157,7 @@ body {
 .line {
   width: 30px;
   height: 1.2px;
-  background-color: #594c66;
+  background-color: #4C6066;
 }
 
 .programming-box {
@@ -217,7 +217,7 @@ body {
 }
 
 .project-title {
-  background-color: #261c33;
+  background-color: #1C2E33;
   color: #fff;
   padding: 40px;
   text-align: center;
@@ -225,7 +225,7 @@ body {
 }
 .project-title h2 {
   padding: 10px;
-  background-color: #5c4c66;
+  background-color: #4C6066;
   width: 210px;
   margin: 0 auto;
   border-radius: 20px;
@@ -239,7 +239,7 @@ body {
 
 .projects {
   color: #fff;
-  background-color: #3f0056;
+  background-color: #1C2E33;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -599,7 +599,7 @@ body {
   margin: 0 auto;
 }
 .contact .social-icons-footer i {
-  color: #a572e3;
+  color: #1C2E33;
   margin: 10px;
   font-size: 30px;
 }
@@ -607,7 +607,7 @@ body {
 .button-contact {
   padding: 14px 20px;
   color: #fff;
-  background-color: #a660df;
+  background-color: #1C2E33;
   border: 0;
   font-size: 18px;
   font-weight: 600;
@@ -774,7 +774,7 @@ body {
 }
 
 .span-description {
-  color: #64576b;
+  color: #57676b;
   font-weight: bold;
 }
 
@@ -812,12 +812,12 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #2e0347;
+  background-color: #1C2E33;
   height: 8vh;
 }
 
 main {
-  background-color: #3f0056;
+  background-color: #1C2E33;
   background-size: cover;
   height: 100%;
 }
